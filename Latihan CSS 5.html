@@ -1,0 +1,67 @@
+<style media="screen">
+    .container{
+        width: 50%;
+        height: 200px;
+        overflow: auto;
+        margin-left: 0 auto;
+    }
+    .station{ position: static; border: 2px solid green; }
+    .relative{
+        position: relative;
+        border: 2px solid red;
+        left: 20px;/* jarak dari posisi paling kiri sebesar 20px*/
+        bottom: 0;/* jarak dari posisi paling bawah sebesar 0px*/
+    }
+    .absolute{ position: absolute; border: 2px solid blue; left: 20px; bottom: 40px; }
+    .fixed{ position: fixed; border: 2px solid black; bottom: 0; right: 0; }
+    .sticky{
+        position: sticky;
+        border: 2px solid yellow;
+        top: 0;
+        left: 20px;
+        background: darkblue;
+        color: white;
+    }
+</style>
+<div class="container">
+    <p class="sticky">
+        Ini adalah contoh dari posisi sticky
+    </p>
+
+    <p class="static">
+        <b>Ini adalah contoh dari position static</b>
+        <br>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti eaque tempore inventore ducimus officiis ipsa molestias,
+         sapiente vel, voluptas alias, iure maxime natus quisquam obcaecati delectus reiciendis. Reprehenderit accusantium eligendi 
+         excepturi dolorem vitae labore, vero perferendis cum soluta sapiente autem alias voluptatum earum. Voluptatibus aliquid hic 
+         ipsum libero, quas, fugit ab autem quasi tempora harum, temporibus aspernatur id? Doloremque labore illum dolorum dolore vero? 
+         Voluptatum aliquid illum expedita natus nemo maiores doloremque maxime. Voluptates, reprehenderit accusantium quas quidem soluta,
+          nobis magnam odio ab facilis vel suscipit laudantium corrupti rem itaque? Ipsum corrupti nostrum et, cupiditate quidem culpa ad. Itaque, eveniet!
+    </p>
+
+    <p class="relative">
+        <b>Ini adalah contoh dari position relative</b>
+        <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nulla, praesentium accusantium nisi quos molestias rerum atque 
+        distinctio, natus debitis, vero exercitationem dolorum necessitatibus numquam hic optio molestiae! Recusandae consequuntur veniam 
+        atque deleniti vitae, facilis incidunt odit architecto ipsam veritatis error eum dicta quis dolorum ea esse! Corporis repellendus 
+        magni accusantium cum iste expedita ab quidem modi, natus nobis dolores labore eum officiis. Fugiat error sunt quae mollitia illum. 
+        Voluptatum maiores tenetur itaque saepe repellendus alias exercitationem corporis enim magni in sint reprehenderit placeat delectus, 
+        non labore qui perspiciatis repudiandae beatae. Adipisci architecto blanditiis repellendus nulla. Sequi dolores provident reprehenderit.
+    </p>
+
+    <p class="absolute">
+        <b>Ini adalah contoh dari position absolute</b>
+        <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nulla, praesentium accusantium nisi quos molestias rerum atque 
+        distinctio, natus debitis, vero exercitationem dolorum necessitatibus numquam hic optio molestiae! Recusandae consequuntur veniam 
+        atque deleniti vitae, facilis incidunt odit architecto ipsam veritatis error eum dicta quis dolorum ea esse! Corporis repellendus 
+        magni accusantium cum iste expedita ab quidem modi, natus nobis dolores labore eum officiis. Fugiat error sunt quae mollitia illum. 
+        Voluptatum maiores tenetur itaque saepe repellendus alias exercitationem corporis enim magni in sint reprehenderit placeat delectus, 
+        non labore qui perspiciatis repudiandae beatae. Adipisci architecto blanditiis repellendus nulla. Sequi dolores provident reprehenderit.   
+    </p>
+
+    <p class="fixed">
+        Ini merupakan contoh dari position fixed
+    </p>
+</div>
